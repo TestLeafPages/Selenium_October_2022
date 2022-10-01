@@ -1,0 +1,188 @@
+Installations
+JDK - Java Development Kit - JRE & JVM
+JRE - Java Runtime Env
+JVM - Java Virtual Machine
+Eclipse - IDE
+Humans		communicate	Computer
+English				Binary 0,1
+Command 			5+3 => 8
+		   Java
+English		Compilation	0,1
+.java		Compiler	.class - target folder
+Java source code
+And Other supporting files
+
+IDE - Integrated Development Environment
+Java code
+Editor
+Complier
+Execute
+Get output
+
+Notepad
+cmd 
+javac filename.java
+java filename.java
+
+
+Project - Maven Project
+pom.xml - > POM -> Project Object Model - Maven
+
+
+package
+1. When you are creating a package, the name of the package
+should be in lowercase.
+2. When you use (.) you are allowed to create a sub package
+package = folder which stores java code
+
+Class
+1. Class is a place where you can code.
+2. Class Name should always starts with a Uppercase.
+
+Car - Class
+
+Data - Variable
+Type of car - Seden, hatchback, SUV, MUV, MPV
+Brand - Suzuki, Honda, VW, Benz, BMW
+Model - i20, swift, thar, compass
+Year of Car - 2022, 2020
+Color - Black, blue
+Reg: TN 45 F 2818
+Fuel: Petrol, Disel, EV
+Tranmisssion: Automatic/manual
+
+Actions - methods
+turnOn / Off
+open/close the doors
+change gear
+drive
+park
+reverse
+horn
+music
+ac
+rooftop
+Class - methods and variables
+
+Datatype
+Primitive datatypes - abcd
+Non Primitive datatypes  - noun, pronoun, verb
+
+
+Data
+1. variable name should start with a lowercase & maintain
+camel case.
+firstNumber
+firstName
+lastName
+middleName
+
+. -> ;
+Whenever you are ending a statement ;
+
+
+Classroom assignment
+1. create a package week1.day1 in src/main/java
+2. Create a class called Car
+3. Try to create all the datatypes learned.
+ 
+operators
+1. Arithmetic
++ - * / %
+2. Relational
+< <= > >= == !=
+3. Logical
+&& - AND
+|| - OR
+! - NOT
+
+++ -- - Increamental and decremental operators
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alphabets, numbers, operations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

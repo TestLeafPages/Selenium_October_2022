@@ -98,6 +98,155 @@ operators
 
 ++ -- - Increamental and decremental operators
 
+access modifiers
+Restriction to the access of the resources
+Resources: class, method and variables
+public -> Kathirvan's Door bell - Anyone in this project can access
+private -> Mask -> can be accessed with in the class
+package/default/no modifier -> Bike -> Any one inside the package can access
+protected -> 
+
+class -> public,package
+methods -> public,private,package,protected
+variables -> public,private,package,protected
+
+
+methods
+Contains the actions to perform
+to avoid code duplication and reusablity
+method name should start with a lowercase & maintain camel case
+
+Syntax:
+accessModifier returnType methodName(input args){
+}
+returntype can be anything ie primitive or non primitive types
+void - nothing
+
+return statement should be the last line of the method
+
+
+Car -> Class
+printCarname ->
+getRegNumber -> 8888
+getColor ->
+isCarPuncture() ->
+
+public add 3 int
+private sub 2 int
+package mul 3 float
+div 2 int
+
+main() -> Car
+try to access all the methods
+
+Create another class called MyCar
+main() -> try to access all the methods
+
+Create another class in another package
+main() -> try to access all the methods
+
+
+Object
+Syntax:
+ClassName objectName = new ClassName();
+
+Global variable - When you declare a variable in the class level
+Anyone inside the class can use the variable.
+Anyone accessing the class can access the variable.
+
+Local Variable - When you declare a variable in the method level
+Usablity of the variable is only inside the method
+
+Constructor
+Constructor is a spl method
+which has the method name as the class name
+This method will not have any return type
+The gateway to the class
+
+Constructor will give you the reference of the class
+new keyword creates a new memory to store the reference.
+
+
+When there is no constructor available, Java will create a 
+virtual constructor or default constructor.
+
+without constructor you can not create an object for the class
+so you can not access any of the classes in the project
+
+Constructor is the only way to provide input for a class
+
+
+
+Conditional statements
+if(condition){
+true block
+} else{
+false block
+}
+
+Arrays
+Length - 5
+	0 - Arun
+	1 - Tamil
+	2 - Chandru
+	3 - Padma
+	4 - Manon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

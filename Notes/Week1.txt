@@ -62,11 +62,13 @@ horn
 music
 ac
 rooftop
+
 Class - methods and variables
 
 Datatype
 Primitive datatypes - abcd
 Non Primitive datatypes  - noun, pronoun, verb
+String, Array
 
 
 Data

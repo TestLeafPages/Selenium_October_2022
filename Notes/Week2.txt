@@ -1,0 +1,76 @@
+Selenium
+Maven: https://mvnrepository.com/
+From this repo, we are going to search and find the open source
+application that we need and get the respective Maven dependency
+
+Integrate the dependency in your project.
+
+Repository to store all open source applications
+https://repo1.maven.org/maven2/
+
+Website Used for automation testing:
+http://leaftaps.com/opentaps/control/main
+Username/Password: Demosalesmanager/crmsfa
+
+
+HTML - Hypertext markup language
+Web application - > UI - Java script
+
+
+<input class="inputLogin" type="text" id="username" 
+name="USERNAME" size="50">
+
+tagname -> input
+attributes -> class,type,id,name,size 
+(attribute)values -> "inputLogin","text","username","USERNAME","50"
+
+<label for="username">Username</label>
+
+tagname -> label
+attributes -> for
+(attribute)values -> "username"
+text -> Username
+
+
+Keerthana - CTS - Perungudi
+EMP ID
+Last name
+From Where she is coming
+Which project/team
+
+Locator is a concept in selenium used to find an element
+id -> attribute
+class -> attribute
+name -> attribute
+linktext
+partial linktext
+tagname
+xpath
+css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

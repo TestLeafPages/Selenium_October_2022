@@ -1,0 +1,157 @@
+DropDown:
+---------
+<select> -> Parent tag
+	<option> -> Child tag
+	<option>
+</select>	
+	
+black text, which visible in application -> VisibleText
+Value is an attribute in option tag -> Value for the option
+Index for the first option in a dropdown -> 0
+
+Selenium gives a class called "Select" to handle dropdowm
+
+
+List:
+-----
+It will maintain the order
+It allows duplicate
+
+size() -> to find the number of items in the List
+get(index) -> to get single item from the List
+first item index starts with 0
+
+
+
+WebElement Methods:
+getAttribute() -> to get the attribue value from a WebElement
+getText() -> to get the WebElement text (black / visible text)
+
+Xpath -> XML Path
+==================
+
+DOM (Document Object model) -> Is a xml structure
+
+<html> -> root tag
+
+When should we use xpath to locate a element?
+ Not able to use basic locators, then we will use xpath
+ 
+Types:
+-------
+Absolute Xpath
+Relative Xpath -> Mostly used in Realtime
+
+
+Absolute Xpath: locate the element by traversing each tag / node starting from html tag
+---------------
+starts with /
+index starts with 1 for Xpath
+/html/body/div[2]/div[2]/div/h2
+
+cntrl + F -> to get the search field in the DOM
+
+Limitations:
+-------------
+1. Will take time to write xpath
+2. High risk of failure when dom is getting changed
+
+
+Relative Xpath: 
+----------------
+- Starts with //
+- Can start from middle of the DOM
+
+Syntax: //tagName of the WebElement
+		//h2
+		//input
+		
+Attribute Based Xpath:
+-----------------------	
+syntax: //tagName[@attribute='attribute_value']	
+		//input[@id='username']
+		//input[@type='password']
+		//label[@for='password']
+		
+Text Based Xpath:
+-------------------
+syntax: //tagName[text()='text value']	
+		//h2[text()='Leaftaps Login']
+		//label[text()='Username']
+		
+Partial Match Xpath:
+--------------------	
+syntax: //tagName[contains(@attribute,'partial value')]	
+		//input[contains(@id,'username')]
+		//label[contains(@for,'password')]
+		
+Syntax:	//tagName[contains(text(),'partial text')]
+		//label[contains(text(),'Password')]
+		
+Collection Based Xpath:
+-----------------------
+Syntax: (xpath)[index]
+		(//input[@class='inputLogin'])[2]
+		
+		
+Difference Between Thread.sleep() and implicitlyWait
+-------------------------------------------------------
+
+Thread.sleep():
+- java wait
+- Not common for all the code. It is specific for a line of code
+- It will wait for the entire given time 
+
+
+implicitlyWait: 
+- Selenium Wait
+- It is common for all the element to get loaded
+- It will wait until the element is available in DOM within the given time		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

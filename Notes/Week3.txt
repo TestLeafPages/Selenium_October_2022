@@ -1,0 +1,151 @@
+Week 3 - Java OOPS and Collections
+1. OOPS
+Object - Oriented Programming
+1. Inheritance
+2. Polymorphism
+3. Abstraction
+4. Encapsulation
+
+
+
+
+
+
+
+1. Inheritance - extends
+Grand Father - Individual Bunglow in Adayar Boat club
+
+Father - 4BHK villa in the ocean view of Thiruvanmiyur
+
+Dhinesh (Manual tester) - 3 BHK Nellankarai (Beach View)
+
+How many properties does Dhinesh own?
+3
+It is a concept of sharing one class members with another class by a relationship
+
+2 children - 1 -> 3BHK & 2 -> 4BHK
+
+Types of Inheritance:
+1. Simple or Single Inheritance
+Father -> Dhinesh
+Class A -> Class B
+Parent/super -> Child/sub
+
+2. Multilevel Inheritance
+Grand Father -> Father -> Dhinesh -> D's Daughter
+Class A -> Class B -> Class C -> Class D
+
+
+
+3. Multiple Inheritance -> This is not supported by Java Classes
+Kathiravan
+Monday Morning
+Breakfast table
+1 - Idlies (Wife)
+2 - Idlies (Mother)
+
+
+Class A extends Class B & Class C
+Class B m1()
+Class C m1()
+A.m1();
+
+Vehicle - applyBrake(), soundHorn()
+Car - openSunroof(), turnOnAC()
+BMW - autoPark()
+Audi - hybridFuel()
+Auto - handStarter()
+Bajaj - electronicMeter()
+
+
+
+^ + a -> selectAll
+^ + i -> intendation
+^ + shift + f -> alignment
+^ + + -> Increase font size
+
+
+final
+class, methods & variables
+class -> you can not extend that class
+method -> you can not override
+variable -> you can not reassign value that
+final int a = 5;
+
+
+
+
+
+
+static
+variables, methods:
+1. static are stored in stack memory.
+2. static members are class level members
+when you want to access the static members you do nt need an obj
+Classname.methodName() ;
+Classname.variableName;
+
+
+
+
+
+
+
+this
+replacement of object of a class in the non-static methods alone
+
+super
+java keyword that is used in inheritance, for accessing super class methods
+during the overriden process.
+
+
+2. Polymorphism
+compile-time/static/ overloading
+happens within the class
+duplicates the same method name with different number of args
+or different types of args
+
+run-time/dynamic/ overriding
+happens within the inherited classes
+over riding the base class functionlity in the sub class without 
+changing the method signature
+
+
+
+LearnOverloading
+add() - 2 Int, 3 Int, 2 float, 1 float and 1 Int
+main() -> call all the methods and verify.
+
+applyBrake() -> Vehicle -> normal brake
+applyBrake() -> Audi -> ABS brake
+main() -> call both the apply brakes and verify
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+2. Collections

@@ -123,6 +123,124 @@ main() -> call both the apply brakes and verify
 
 
 
+Class A m1()
+Class B m1() super -> A.m1()
+Class C m1() super -> B.m1()
+
+
+
+
+Abstraction
+Plan -> Architect
+Implement the plan
+
+You will not be able to construct a house properly
+
+
+1. Code duplication
+2. accessablity
+get, loadURL, launchURL
+
+
+Interface - Plan
+
+
+RBI - Interface
+minimumBalance()
+provideDebitCard()
+
+HDFC implementation of RBI
+provideCreditCard()
+
+
+MyBankAccount main()
+Call HDFC, RBI
+
+
+
+Array -> Collection of data of same data type
+Limitation: Size
+
+Collections
+Data Structures
+1. List
+2. Set
+3. Map
+
+1. List
+List -> Interface
+Implementation class
+1. ArrayList ->
+2. LinkedList
+
+Properties:
+1. Allows duplicate values
+{Arun, Balaji, Chandru, Deena, Arun, Elango}
+
+2. Maintains the insertion order
+
+1. [23,54,67,55,66,42,27,89] - Odd numbers
+2. ["Arun","Deepa","Maria","Deepa","Sharmila","Muthu","Chinrasu"]
+Print only the names starts with 'M'
+Hint: startswith("M")
+
+
+
+Set -> interface
+Implementation class:
+1. HashSet - hashing algorithm - Random
+2. TreeSet - Ordered Output - ASCII sorted
+3. LinkedHashSet - Maintains the insertion order
+
+Properties of Set:
+1. Allows only Unique values
+2. May / may not maintain the insertion order based on the implementation class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,65 @@
+How to Handle Alert:
+---------------------
+
+What is an alert?
+	It is an modal dialog. Java Script alert
+	
+- Not able to inspect the elements in an alert
+- Not able to interact with the elements in the main window (DOM) unless you accept / decline the alert	
+
+Types Alerts:
+--------------
+- Modal Dialog: Created using scripts.
+	* Simple Alert - 1 alert message and 1 button (OK / Cancel)
+		- getText() -> to read the alert message
+		- accept() -> to click on the OK button
+	* Confirm Alert - 1 alert message and 2 buttons (OK & Cancel)
+		- getText() -> to read the alert message
+		- accept() -> to click on the OK button
+		- dismiss() -> to click on the Cancel button
+	* Prompt Alert - 1 alert message, 1 text input field and 2 buttons (OK & Cancel)
+		- getText() -> to read the alert message
+		- sendKeys() -> to type the input
+		- accept() -> to click on the OK button
+		- dismiss() -> to click on the Cancel button
+		
+Excdeptions:
+-------------
+NoAlertPresentException -> when try to interact with an alert which is not available	
+UnhandledAlertException -> When try to interact with the DOM element without handling the alert	
+
+
+Non Modal Dialog: We can able to inspect the alert and handle with normal selenium methods
+
+
+Frames: DOM inside a DOM / html code inside main html code
+-------
+<frame>
+<iframe> -> inline frame -> can able to move the frame location
+
+switchTo().frame() using:
+index
+idorname
+WebElement
+
+NoSuchFrameException -> When the specified frame is not available in the DOM
+
+driver.switchTo().defaultContent() -> to get out of all the frames and move control into main DOM
+
+driver.switchTo().parentFrame() -> move the control from inner frame to immediate parent frame
+
+Window Handling:
+----------------
+To locate the window -> Selenium WebDriver gives an unique reference
+
+How to get the reference of window?
+------------------------------------
+getWindowHandle() -> to get the refernce of current window ; return String
+getWindowHandles() -> to get all the window references ; return Set<String>
+
+To get single data from Set:
+-----------------------------
+1. Convert the Set into List
+2. Use get(index) in List
+
+	

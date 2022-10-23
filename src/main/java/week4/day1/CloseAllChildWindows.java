@@ -1,6 +1,8 @@
 package week4.day1;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -22,7 +24,7 @@ public class CloseAllChildWindows {
 		System.out.println(firstWindowHandle);
 
 		// first window
-		driver.findElement(By.xpath("//span[text()='Close Windows']")).click();
+		driver.findElement(By.xpath("//span[text()='Open Multiple']")).click();
 		
 		Set<String> windowHandles = driver.getWindowHandles();
 		
@@ -35,6 +37,18 @@ public class CloseAllChildWindows {
 			
 			
 		}
+		
+		driver.switchTo().window(firstWindowHandle);
+		
+		driver.findElement(By.xpath("//span[text()='Open']")).click();
+		
+		Set<String> windowHandles2 = driver.getWindowHandles();
+		List<String> listHandles = new ArrayList<String>(windowHandles2);
+		
+		driver.switchTo().window(listHandles.get(1));
+		
+		String title = driver.getTitle();
+		System.out.println(title);
 		
 	
 		

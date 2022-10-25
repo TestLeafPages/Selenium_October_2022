@@ -1,0 +1,97 @@
+Advanced Xpath / Axes Based Xpath:
+-----------------------------------
+
+Parent & Child
+GrandParent & GrandChild
+ElderSibling & YoungerSibling
+ElderCousin & YoungerSibling
+
+Parent to Child Xpath: / (single slash)
+-----------------------
+Syntax: parent xpath/child tag
+example: //form[@id='login']/p
+
+Child to Parent Xpath: /..
+----------------------
+Syntax: child xpath/..
+			or
+		child xpath/parent::parent tag
+example: //label[text()='Password']/..
+				or
+		 //label[text()='Password']/parent::p
+		 
+		 
+GrandParent to GrandChild:   // (double slash)
+---------------------------	 
+Syntax: GrandParent xpath//tag name of Grand Child
+Example: (//form[@id='login']//label)[2]
+
+GrandChild to GrandParent:
+---------------------------
+Syntax: GrandChild xpath/../..
+				or
+		GrandChild xpath/ancestor::GrandParent tag name		
+Example: //input[@id='username']/../..
+				or
+		//input[@id='username']/ancestor::form	
+		
+ElderSibling to YoungerSibling:
+--------------------------------
+Syntax: ElderSibling xpath/following-sibling::tag name of younger sibling
+Example: //option[text()='Select your programs']/following-sibling::option[contains(text(),'Appium')]
+		 //option[text()='Select your programs']/following-sibling::option[2]
+		 
+YoungerSibling to ElderSibling:
+-------------------------------
+Syntax: YoungerSibling xpath/preceding-sibling::tag name of elder sibling
+Example: //input[@id='username']/preceding-sibling::label
+
+
+ElderCousing to YoungerCousin (Top to bottom) following
+-------------------------------
+Syntax: ElderCousin xpath/following::tag name younger cousin
+Example: //label[text()='Username']/following::label
+
+YoungerCousin to ElderCousin: (Bottom to top) preceding
+-------------------------------
+Syntax: YoungerCousin xpath/preceding::tag name of ElderCousin
+Example: (//label[text()='Password']/preceding::label)[4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 

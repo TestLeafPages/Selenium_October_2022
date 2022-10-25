@@ -1,0 +1,17 @@
+Keyboard Methods:
+======================
+sendKeys(keysToSend) : sends a series of keystrokes onto the element
+keyDown(theKey) : Sends a key press without release it. Subsequent actions may assume it as pressed. (example: Keys.ALT, Keys.SHIFT, or Keys.CONTROL)
+keyUp(theKey): Performs a key release
+
+Mouse Actions:
+==========================
+
+click (): Simply click on element
+doubleClick (): Double clicks onElement
+contextClick() : Performs a context-click (right click) on an element
+clickAndHold(): Clicks at the present mouse location (without releasing)
+dragAndDrop(source, target): Invokes click-and-hold at the source location and moves to the location of the target element before releasing the mouse. source – element to grab, target – element to release
+dragAndDropBy(source, xOffset, yOffset): Invokes click-and-hold at the source location and moves to the location and release
+moveToElement(toElement): It shifts the mouse to the center of the element
+release(): Releases the depressed left mouse button at the existing mouse location

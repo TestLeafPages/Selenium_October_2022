@@ -1,0 +1,53 @@
+TestNG
+1. Multiple test cases together.
+2. Multiple test cases parallely.
+3. If I want to run a particular test case multiple times.
+4. Is it possible to prioritize the test case.
+5. Test case dependency.
+6. Grouping
+7. Test data
+8. Assertion.
+9. Reports.
+
+TestNG -> Cédric Beust -> Java
+Next Generation
+J unit & N unit
+unit testing framework
+execution framework
+
+1. Include testNG dependency in pom.xml
+2. Install TestNG plugin -> Help -> Eclipse Market place -> TestNG
+
+Steps to convert Java test cases -> TestNG test cases
+1. Replace main() with a normal java method.
+
+@BeforeSuite -> Connection with Saucelabs/BS
+@BeforeTest -> Start Report creation
+@BeforeClass -> Connect JDBC for db connection
+@BeforeMethod -> Browser setup, Load URL, Maximize and Timeout
+			@Test1
+@AfterMethod -> Close Browser
+@BeforeMethod -> Browser setup, Load URL, Maximize and Timeout
+			@Test2
+@AfterMethod -> Close Browser
+@AfterClass -> Disconnect JDBC for db connection
+@AfterTest -> Stop and generate Report
+@AfterSuite -> Disconnection with Saucelabs/BS
+
+
+Create a class
+with all testNG annotations
+2 @Test
+2@Beforemethods
+With before method and without after method
+
+
+
+
+
+
+
+
+
+
+

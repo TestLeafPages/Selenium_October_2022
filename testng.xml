@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Leaftaps Regression UI Tests" parallel="classes" thread-count="3">
+  <parameter name="url" value="http://leaftaps.com/opentaps/"/>
+  <test  name="Modify Leads - Chrome">
+  <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testcase.CreateLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

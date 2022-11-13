@@ -1,0 +1,13 @@
+String -> class -> non-primitive data type
+Immutable
+"ABCDabcd09 <>?:"{}|+_)(*&^%$#@!~`"
+
+String name1 = "testleaf"; -> String Literal
+String name2 = new String("testleaf"); -> String Object
+name1 == name2
+
+t	e	s	t	l	e	a	f
+0	1	2	3	4	5	6	7
+
+subString(3) -> tleaf
+subString(3,6) -> tle

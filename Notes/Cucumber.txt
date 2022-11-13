@@ -1,0 +1,55 @@
+1. Test driven development - TDD
+2. Behavioural driven development - BDD
+
+BDD Frameworks
+1. cucumber
+2. specflow - .Net
+3. Jbehave
+4. Jdave
+5. Concordian
+
+Gherkin - Language
+Feature: functionality - user story
+Scenario: test cases/ used cases
+Scenario outline:
+Examples:
+Background
+Given - give the pre-conditions & assumptions
+When - Test condition
+Then - Expected Result - Positive
+But - Expected Result - Negative
+And - Conjunctor
+
+
+Cucumber
+1. feature
+2. Step defintion
+3. Runner
+
+1. feature
+Gherkin language
+extension -> (.feature)
+
+tags
+tags = "@Sanity" -> only to run sanity test cases
+tags = "not @Sanity" -> only to run which is not sanity test cases
+tags = "@Sanity or @Regression" -> only to run either sanity or regression
+tags = "@Sanity and @Smoke" -> only to run which should be both @Smoke and @sanity
+togeather.
+
+Hooks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

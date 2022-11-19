@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="http://leaftaps.com/opentaps/"/>
+  <test thread-count="5" name="Modify Leads - Chrome(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.leaftaps.leads.ui.cases.CreateLeadTest">
+        <methods>
+          <include name="am"/>
+          <include name="runCreateLead" invocation-numbers="0 1"/>
+          <include name="bm"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- com.leaftaps.leads.ui.cases.CreateLeadTest -->
+    </classes>
+  </test> <!-- Modify Leads - Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

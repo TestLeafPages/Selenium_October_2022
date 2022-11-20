@@ -1,0 +1,18 @@
+Page Object Model Implementation Steps:
+----------------------------------------
+1. Create a Base Class (ProjectSpecificMethods) to  keep all the common methods and variables for project
+		1. SalesForce - SalesforceMethods
+		2. Service - ServiceNowMethods
+	- Create the BaseClass under a package (eg: com.leaftaps.ui.base)	
+2. Create java classes for each page that we navigate in the application under pages package(com.leaftaps.ui.pages)	
+3. All the java classes related to pages should extends the BaseClass (ProjectSpecificMethods)
+4. Create methods for all the actions / verifications in the respective pages java class
+5. All the methods in the pages should have return based on the landing page
+		- Same Page : return this
+		- another page : return new HomePage()
+6. Create java classes for each testcase 
+7. All the testcases java class should extends BaseClass (ProjectSpecificMethods)
+8. Create constructor in all the pages java class with driver as an argument
+9. Assign the driver argument to the global variables
+				this.driver = receivedDriver
+10. Pass the driver in all the constructors in the testcase and pages				

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-20T12:57:03 IST" name="Suite" finished-at="2022-11-20T12:57:13 IST" duration-ms="9647">
+    <groups>
+    </groups>
+    <test started-at="2022-11-20T12:57:03 IST" name="English Test" finished-at="2022-11-20T12:57:13 IST" duration-ms="9647">
+      <class name="com.leaftaps.leads.ui.cases.CreateLeadTest">
+        <test-method is-config="true" signature="setData()[pri:0, instance:com.leaftaps.leads.ui.cases.CreateLeadTest@8458f04]" started-at="2022-11-20T12:57:03 IST" name="setData" finished-at="2022-11-20T12:57:03 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.leads.ui.cases.CreateLeadTest@8458f04]" started-at="2022-11-20T12:57:06 IST" name="bm" finished-at="2022-11-20T12:57:11 IST" duration-ms="5819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[english]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.leads.ui.cases.CreateLeadTest@8458f04]" started-at="2022-11-20T12:57:11 IST" name="runCreateLead" data-provider="testData" finished-at="2022-11-20T12:57:13 IST" duration-ms="1121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="am()[pri:0, instance:com.leaftaps.leads.ui.cases.CreateLeadTest@8458f04]" started-at="2022-11-20T12:57:13 IST" name="am" finished-at="2022-11-20T12:57:13 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+      </class> <!-- com.leaftaps.leads.ui.cases.CreateLeadTest -->
+    </test> <!-- English Test -->
+  </suite> <!-- Suite -->
+</testng-results>
